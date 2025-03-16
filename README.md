@@ -8,12 +8,32 @@
   <!-- Web -->
 </p>
 
-## 🚀 How to use
+# 📱 Wallpaper Animated Carousel
 
-> `npx create-expo my-app --example with-reanimated`
+![Wallpaper Animated Carousel Preview](preview-image-url)
+
+Um projeto desenvolvido para demonstrar conhecimentos em animação utilizando **Expo** e **Reanimated**. Este é um carrossel animado de wallpapers utilizando a API do Pexels que proporciona uma experiência fluida e suave.
+
+## 🚀 Tecnologias Utilizadas
+
+- [Expo](https://expo.dev/) - Framework para desenvolvimento em React Native
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - Biblioteca para animações fluidas e performáticas
+
+## 🎥 Preview
+
+<iframe width="688" height="1223" src="https://www.youtube.com/embed/rkUWnbnNA0A" title="Simulator Screen Recording   iPhone 16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## 📦 Instalação
+
+- Clone this repository
+
+  ```sh
+  git clone https://github.com/pedrohenrque/wallpaper-animated-carousel.git
+  ```
 
 - Run `yarn` or `npm install`
-- Run `yarn start` or `npm run start` to try it out.
+- Added your api key from Pexels
+- Run `expo start`
 
 ## 📝 Notes
 
