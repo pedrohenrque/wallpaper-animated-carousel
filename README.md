@@ -19,7 +19,7 @@ Um projeto desenvolvido para demonstrar conhecimentos em animação utilizando *
 
 ## 🎥 Preview
 
-[![Ver Vídeo](https://img.youtube.com/vi/rkUWnbnNA0A/maxresdefault.jpg)](https://github.com/pedrohenrque/wallpaper-animated-carousel/src/assets/record1.mp4)
+[![Ver Vídeo](https://img.youtube.com/vi/rkUWnbnNA0A/maxresdefault.jpg)](https://github.com/pedrohenrque/wallpaper-animated-carousel/main/src/assets/record1.mp4)
 
 ## 📦 Instalação
 
