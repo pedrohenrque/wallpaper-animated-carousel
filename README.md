@@ -1,5 +1,3 @@
-# Reanimated example
-
 <p>
   <!-- iOS -->
   <img alt="Supports Expo iOS" longdesc="Supports Expo iOS" src="https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff" />
@@ -21,7 +19,9 @@ Um projeto desenvolvido para demonstrar conhecimentos em animação utilizando *
 
 ## 🎥 Preview
 
-<iframe width="688" height="1223" src="https://www.youtube.com/embed/rkUWnbnNA0A" title="Simulator Screen Recording   iPhone 16" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Ver Vídeo](https://img.youtube.com/vi/rkUWnbnNA0A/maxresdefault.jpg)](https://github.com/pedrohenrque/wallpaper-animated-carousel/src/assets/record1.mp4)
+
+[![Ver Vídeo](https://img.youtube.com/vi/rkUWnbnNA0A/maxresdefault.jpg)](https://github.com/pedrohenrque/wallpaper-animated-carousel/src/assets/record2.mp4)
 
 ## 📦 Instalação
 
