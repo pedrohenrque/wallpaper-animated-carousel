@@ -10,7 +10,7 @@
 
 ![Wallpaper Animated Carousel Preview](preview-image-url)
 
-Um projeto desenvolvido para demonstrar conhecimentos em animação utilizando **Expo** e **Reanimated**. Este é um carrossel animado de wallpapers utilizando a API do Pexels que proporciona uma experiência fluida e suave.
+Um projeto desenvolvido para demonstrar conhecimentos em animação utilizando **Expo** e **Reanimated**. Este é um carrossel animado de wallpapers utilizando a API do Pexels que proporciona uma experiência fluida e bela.
 
 ## 🚀 Tecnologias Utilizadas
 
