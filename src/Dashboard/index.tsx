@@ -21,7 +21,7 @@ const _spacing = 18
 const _topSpacing = height - _slideHeight
 
 function Slide({ photo, index, scrollX }: SlideProps) {
-  const containerStylez = useAnimatedStyle(() => {
+  const containerStyles = useAnimatedStyle(() => {
     return {
       transform: [
         {
@@ -36,7 +36,7 @@ function Slide({ photo, index, scrollX }: SlideProps) {
     }
   })
 
-  const stylez = useAnimatedStyle(() => {
+  const styles = useAnimatedStyle(() => {
     return {
       transform: [
         {
@@ -73,7 +73,7 @@ function Slide({ photo, index, scrollX }: SlideProps) {
           elevation: 7,
           borderRadius: 12
         },
-        containerStylez
+        containerStyles
       ]}
     >
       <View
@@ -88,7 +88,7 @@ function Slide({ photo, index, scrollX }: SlideProps) {
       >
         <Animated.Image
           source={{ uri: photo.src.large }}
-          style={[{ flex: 1, borderRadius: 12 }, stylez]}
+          style={[{ flex: 1, borderRadius: 12 }, styles]}
         />
       </View>
     </Animated.View>
@@ -96,7 +96,7 @@ function Slide({ photo, index, scrollX }: SlideProps) {
 }
 
 function BackdropImage({ photo, index, scrollX }: SlideProps) {
-  const stylez = useAnimatedStyle(() => {
+  const styles = useAnimatedStyle(() => {
     return {
       opacity: interpolate(
         scrollX.value,
@@ -108,14 +108,14 @@ function BackdropImage({ photo, index, scrollX }: SlideProps) {
   return (
     <Animated.Image
       source={{ uri: photo.src.large }}
-      style={[StyleSheet.absoluteFillObject, stylez]}
+      style={[StyleSheet.absoluteFillObject, styles]}
       blurRadius={50}
     />
   )
 }
 
 function AuthorDetails({ photo, index, scrollX }: SlideProps) {
-  const stylez = useAnimatedStyle(() => {
+  const styles = useAnimatedStyle(() => {
     return {
       transform: [
         {
@@ -144,7 +144,7 @@ function AuthorDetails({ photo, index, scrollX }: SlideProps) {
           alignItems: 'center',
           paddingHorizontal: width * 0.1
         },
-        stylez
+        styles
       ]}
     >
       <Text
